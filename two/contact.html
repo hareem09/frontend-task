@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-orange-200">
+    <nav class="bg-orange-200 text-blue-400 p-4 width-full">
+      <ul class="flex justify-around">
+        <li><img src="img1.svg" alt=""></li>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section class="contact-section">
+        <img src="contact.jpg" alt="" class="relative z-[-1] size-full">
+        <h1 class="absolute top-1/4 text-xl md:top-2/3 left-1/2 md:transform -translate-x-1/2 -translate-y-1/2 md:text-5xl text-blue-400">Get <i>in touch</i> with us today,
+            and <i>let's create </i> something
+            extraordinary <i>together</i>
+          </h1>
+      </section>
+        <section class="md:flex flex-col md:flex-row ">
+            <section class="justify-center self-center w-1/2 m-10 md:text-2xl text-blue-400 text-center">
+               <p>Providing us with as much information as possible will help us deliver a prompt and accurate quote. We aim to respond within 24 hours of receiving your form submission!</p>
+               <form class="flex flex-col md:gap-4 md:items-center ">
+                <label for="name">
+                    Name
+                </label>
+                <input type="text" name="name" id="name" class="border-2 border-orange-400 bg-orange-200 rounded">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" class="border-2 border-orange-400 bg-orange-200 rounded">
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" class="border-2 border-orange-400 bg-orange-200 rounded">
+                <label for="address">Address</label>
+                <input type="text" name="address" id="address" class="border-2 border-orange-400 bg-orange-200 rounded">
+                 <input type="submit" value="Submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+              </form>
+            </section>
+            <img src="img4.webp" alt="" class="h-1/2">
+        </section>
+    </main>
+    <footer class="bg-orange-200 text-blue-400 p-4 text-center">
+      <p>&copy; 2026 Garrison and Croft. All rights reserved.</p>
+    </footer>
+</body>
+</html>
